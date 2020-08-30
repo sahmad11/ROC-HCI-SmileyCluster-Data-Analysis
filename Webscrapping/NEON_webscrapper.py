@@ -49,7 +49,7 @@ def main():
 			df.insert(len(df.columns),"Mammal-Richness (July 2018)","")
 
 	extractFiles(df,file,col)
-	df.to_csv(r'Sheet 11.csv',index=False,header=True)
+	df.to_csv(r'final_dataset.csv',index=False,header=True)
 
 if __name__ == '__main__':
 	main()
